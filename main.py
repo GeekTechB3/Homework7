@@ -15,14 +15,6 @@ class Form(QMainWindow):
             self.video.clicked.connect(self.video_self)
 
 
-    def download(url, type):
-        yt = YouTube(url)
-        if type == "audio":
-            yt.streams.filter(only_audio=True).first().download("audio", f"{yt.title}.mp3")
-            return f"{yt.title}.mp3"
-        elif type == "video":
-            yt.streams.filter(progressive=True, file_extension="mp4").first().download("video", f"{yt.title}.mp4")
-            return f"{yt.title}.mp4"
 
     def audio_self(self):
         try:
