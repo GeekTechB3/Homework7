@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>574</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 198);</string>
+  </property>
+  <widget class="QLabel" name="eror">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>531</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 85, 0);
+font: 8pt &quot;MS Shell Dlg 2&quot;;
+font: 87 26pt &quot;Arial Black&quot;;</string>
+   </property>
+   <property name="text">
+    <string>         Geektech</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>70</y>
+     <width>301</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Youtube</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="input1">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(186, 186, 139);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>URL:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="audio">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>270</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 26pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 255, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Audio</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="video">
+   <property name="geometry">
+    <rect>
+     <x>332</x>
+     <y>270</y>
+     <width>181</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;
+font: 24pt &quot;MS Shell Dlg 2&quot;;
+font: 24pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(0, 255, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Video</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="downloader">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>400</y>
+     <width>451</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
